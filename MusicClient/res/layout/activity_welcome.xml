@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView 
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/musicicon"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <TextView
+        android:id="@+id/tv_Show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:text="我的音乐我做主"/>
+
+</RelativeLayout>
